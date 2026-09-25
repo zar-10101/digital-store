@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>متجرك الرقمي</title>
+  <style>
+    *{box-sizing:border-box} body{margin:0;font-family:Arial,sans-serif;background:#08090d;color:#fff}
+    .top{background:#00ef18;color:#061006;text-align:center;padding:12px;font-weight:700}
+    nav{height:76px;display:flex;align-items:center;justify-content:space-between;padding:0 6%;border-bottom:1px solid #202127}
+    .logo{font-size:30px;font-weight:900}.links{display:flex;gap:24px}.links a{color:#ddd;text-decoration:none}
+    .hero{margin:24px auto;max-width:1200px;padding:70px 7%;border-radius:24px;background:linear-gradient(135deg,#4b0d12,#120c12 60%,#210407);overflow:hidden}
+    .hero h1{font-size:48px;margin:0 0 15px}.hero p{font-size:20px;color:#ddd;max-width:650px;line-height:1.8}
+    .btn{display:inline-block;background:#e60012;color:#fff;padding:14px 28px;border-radius:12px;text-decoration:none;font-weight:700}
+    .section{max-width:1200px;margin:45px auto;padding:0 6%}.section h2{font-size:30px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+    .card{background:#11131a;border:1px solid #252832;border-radius:18px;padding:20px}
+    .icon{height:130px;border-radius:14px;background:linear-gradient(135deg,#4a0710,#171820);display:flex;align-items:center;justify-content:center;font-size:42px}
+    .price{font-size:23px;font-weight:800;color:#fff}.muted{color:#aaa;line-height:1.7}
+    footer{margin-top:60px;padding:30px;text-align:center;border-top:1px solid #202127;color:#999}
+    @media(max-width:600px){.links{display:none}.hero h1{font-size:34px}.hero{padding:45px 25px}}
+  </style>
+</head>
+<body>
+  <div class="top">❤️ أهلاً بك في متجرنا الرقمي — عروض مميزة وأسعار منافسة</div>
+  <nav>
+    <div class="logo">S</div>
+    <div class="links"><a href="#products">المنتجات</a><a href="#subscriptions">الاشتراكات</a><a href="#about">من نحن</a></div>
+    <div>🛒</div>
+  </nav>
+
+  <section class="hero">
+    <h1>كل ما تحتاجه الرقمي، بمكان واحد!</h1>
+    <p>متجر للمنتجات الرقمية والاشتراكات. اختر المنتج، ادفع، واحصل على طلبك بسهولة.</p>
+    <a class="btn" href="#products">تسوق الآن</a>
+  </section>
+
+  <section class="section" id="products">
+    <h2>المنتجات الرقمية</h2>
+    <div class="grid">
+      <div class="card"><div class="icon">📦</div><h3>منتج رقمي 1</h3><p class="muted">وصف المنتج سيضاف هنا.</p><div class="price">5 د.أ</div><br><a class="btn" href="#">شراء</a></div>
+      <div class="card"><div class="icon">💎</div><h3>منتج رقمي 2</h3><p class="muted">وصف المنتج سيضاف هنا.</p><div class="price">10 د.أ</div><br><a class="btn" href="#">شراء</a></div>
+      <div class="card"><div class="icon">⚡</div><h3>منتج رقمي 3</h3><p class="muted">وصف المنتج سيضاف هنا.</p><div class="price">15 د.أ</div><br><a class="btn" href="#">شراء</a></div>
+    </div>
+  </section>
+
+  <section class="section" id="subscriptions">
+    <h2>الاشتراكات</h2>
+    <div class="grid">
+      <div class="card"><h3>اشتراك شهري</h3><p class="muted">وصول لمدة شهر.</p><div class="price">— د.أ</div><br><a class="btn" href="#">اشترك الآن</a></div>
+      <div class="card"><h3>اشتراك سنوي</h3><p class="muted">خيار اقتصادي لمدة سنة.</p><div class="price">— د.أ</div><br><a class="btn" href="#">اشترك الآن</a></div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <h2>متجرنا</h2>
+    <p class="muted">هذه نسخة البداية. سنضيف اسم المتجر الحقيقي، المنتجات، الأسعار، الدفع وتسليم المنتجات بعد تجهيز الأساس.</p>
+  </section>
+
+  <footer>© 2026 متجرك الرقمي — جميع الحقوق محفوظة</footer>
+</body>
+</html>
